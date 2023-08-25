@@ -125,7 +125,7 @@ function Testing() {
     <Fragment>
       <div className="d-flex justify-content-between pe-0 align-items-center" style={{ background: "black", padding: "0.5%" }}>
         <div>
-          <h1 className="PageHeading" style={{ color: "white" }}>Manage Customers</h1>
+          <h1 className="PageHeading" style={{ color: "white" }}>Manage Customers.....</h1>
         </div>
         <div className="text-center d-flex justify-content-end align-items-end"
           onClick={(e) => { setAddpartsPopup(true); setFlagForAddUpdate(1) }}>

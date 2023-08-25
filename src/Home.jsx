@@ -131,7 +131,7 @@ function Testing() {
           onClick={(e) => { setAddpartsPopup(true); setFlagForAddUpdate(1) }}>
           <label className="BorderBtn text-center">
             Add Customers
-            <img src="/images/AddInventory.svg" className="img-fluid ps-2" />
+            <img src="/images/AddInventory.svg" alt='test' className="img-fluid ps-2" />
           </label>
         </div>
       </div>
@@ -163,6 +163,7 @@ function Testing() {
                       <td className='py-12'>
                         <img
                           src="/images/EditIconNew.svg"
+                          alt='test' 
                           title="Edit"
                           className="img-fluid pe-2 cursor-pointer partsgetID"
                           onClick={(e) => { setAddpartsPopup(true); setFlagForAddUpdate(2); GetDataById(item.user_id) }}
@@ -170,6 +171,7 @@ function Testing() {
                         <img
                           src="/images/DeleteIcon.svg"
                           title="Delete"
+                          alt='test' 
                           className="img-fluid cursor-pointer"
                           onClick={(e) => { DeleteCall(item.user_id) }}
                         />
@@ -193,11 +195,11 @@ function Testing() {
               }
             </div>
             <div className=" mb-2  text-center d-flex justify-content-end align-items-end">
-              <img src="/images/CanclePartsIson.svg" style={{height:"20px"}} className="img-fluid ps-2" onClick={(e) => { setAddpartsPopup(false); }} />
+              <img src="/images/CanclePartsIson.svg" style={{height:"20px"}}  alt='test' className="img-fluid ps-2" onClick={(e) => { setAddpartsPopup(false); }} />
             </div>
           </div>
 
-          <img src="/images/HorizontalLine.svg" className="img-fluid w-100 my-2 postclass" />
+          <img src="/images/HorizontalLine.svg"  alt='test'  className="img-fluid w-100 my-2 postclass" />
 
           <div id="AddPartDiv" className='parent'>
             <div className="row pt-2">
